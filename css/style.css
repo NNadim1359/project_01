@@ -1,0 +1,191 @@
+/* demo styling */
+* {
+    /* resetting the box model for all elements */
+    box-sizing: border-box;
+  }
+  
+  .demo-frame {
+    /* making a nice frame/layout for examples */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -1rem;
+    padding: 3rem;
+    min-height: 100vh;
+    color: rgb(52, 58, 64);
+  }
+  
+  .demo-example {
+    /* individual demo example styling */
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .demo-icon-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .demo-icon {
+    margin: 0;
+    padding: 1.5rem 1rem;
+  }
+
+  .masthead {
+    height: 600px;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .welcome_gap {
+      margin-top: 4em;
+      margin-bottom: 4em;
+      padding-left: 3em;
+      padding-right: 3em;
+      line-height: 2;
+  }
+  .welcome2_gap {
+      margin-top: 2em;
+      margin-bottom: 2em;
+      padding-left: 3em;
+      padding-right: 3em;
+      line-height: 2.5;
+  }
+  .p_padding {
+      padding: 0 0 0 5em;
+  }
+  .mv_padding {
+      margin-bottom: 3em;
+  }
+  .c_padding {
+      margin-bottom: 2em;
+  }
+  .b_padding {
+    margin-bottom: 1em;
+  }
+  .pic_padding {
+      padding-right: 1em;
+      padding-left: 1em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+  }
+  .it_margin {
+      margin-top: 2em;
+      margin-bottom: 2em;
+  }
+  .masimage {
+    height: 600px;
+    background-attachment: fixed;
+    background-image: url('../img/image_001.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .foot_padding {
+    padding-top: 2em;
+  }
+  .social {
+    font-size: 4em;
+    padding: 2rem;
+  }
+  footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+  }
+  /*cotact*/
+  .contact100 {
+    width: 100%;  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    position: relative;
+    background-color: #f2f2f2;
+  }
+  .wrap-100 {
+    width: 550px;
+    background: transparent;
+    padding: 10px 0px 20px 0px;
+  }
+  .contact_form {
+    width: 100%;
+  }
+  .contact_form_title {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #403866;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 49px;
+  }
+  .wrap_input {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 31px;
+    margin-bottom: 16px;
+    position: relative;
+    z-index: 1;
+  }
+  .input_01 {
+    position: relative;
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-radius: 31px;
+    font-family: Ubuntu-Bold;
+    font-size: 18px;
+    color: #8f8fa1;
+    line-height: 1.2;
+  }
+  input.input_01 {
+    height: 62px;
+    padding: 0 35px 0 35px;
+  }
+  textarea.input_01 {
+    min-height: 169px;
+    padding: 19px 35px 0 35px;
+  }
+  .focus_input {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-radius: 31px;
+    background-color: #fff;
+    pointer-events: none;
+    
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  
+  .input_01:focus + .focus_input {
+    width: calc(100% + 20px);
+  }
